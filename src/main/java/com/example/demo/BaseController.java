@@ -17,4 +17,9 @@ public class BaseController {
     public String reply(){
         return "Run And Run";
     }
+
+    @GetMapping("first")
+    public String firstUpload(){
+        return "First Upload";
+    }
 }
