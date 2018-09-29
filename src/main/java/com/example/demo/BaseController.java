@@ -12,4 +12,9 @@ public class BaseController {
     public String hi(){
         return "Hello Jenkins";
     }
+
+    @GetMapping("reply")
+    public String reply(){
+        return "Run And Run";
+    }
 }
